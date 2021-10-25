@@ -1,20 +1,37 @@
-# Python-Shopping-App
-Shopping application build with Flask and Facebook react
+# Shopping app
+Shopping cart application build with flask and facebook react
 
-install python dependencies
+## Installation
+Inspired from https://github.com/MediaSapiens/flamaster, https://github.com/limelights/todo-reflux.git, https://github.com/coinbolt/catshop and https://github.com/chadpaulson/react-isomorphic-video-game-search
+ * install python dependencies
 
- pip install -r requirements.txt
-install bower
+        pip install -r requirements.txt
 
- npm install -g bower
-install js dependencies
+ * install bower
 
- bower install
-run flask server
+        npm install -g bower
 
-  python manage.py run
-install database and optional data
+ * install js dependencies
 
-python manage.py create_all
+        bower install
 
-python manage.py create_data
+* run flask server
+
+        python manage.py run
+
+* install database and optional data
+
+  	  python manage.py create_all
+
+	  python manage.py create_data
+
+* locations:
+    - shop app: http://127.0.0.1:5000
+    - swagger.json: http://127.0.0.1:5000/swagger.json (todo)
+    - api docs: http://127.0.0.1:5000/doc (todo)
+
+* demo:
+    - http://127.0.0.1:5000/products/
+    - http://127.0.0.1:5000/admin/
+    
+    
